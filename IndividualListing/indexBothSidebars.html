@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no,
+    initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <!--Boostrap stylesheet-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+    <!--Personal stylesheet-->
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/bothSidebarsStyle.css" />
+    <!--Starability stylesheet-->
+    <link rel="stylesheet" type="text/css" href="styles/starability-grow.css" />
+    <!-- Animate Notify.js-->
+    <link rel="stylesheet" type="text/css" href="styles/Animate.css" />
+    <!--Font Awesome API-->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <!--Google fonts API-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container main_container">
+        <div class="row">
+            <div class="column left_sidebar_container">
+                <div class="container-fluid left_sidebar_container">
+                    <!-- Sidebar -->
+                    <nav id="sidebar">
+                        <div class="sidebar_header">
+                            <h3>Site left sidebar</h3>
+                        </div>
+                        <ul class="list-unstyled components">
+                            <p>Dummy Heading</p>
+                            <li class="active">
+                                <a href="#homeLeftSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Home</a>
+                                <ul class="collapse list-unstyled" id="homeLeftSubmenu">
+                                    <li>
+                                        <a href="#">Home 1</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Home 2</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Home 3</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">About</a>
+                            </li>
+                            <li>
+                                <a href="#pageLeftSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Pages</a>
+                                <ul class="collapse list-unstyled" id="pageLeftSubmenu">
+                                    <li>
+                                        <a href="#">Page 1</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Page 2</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Page 3</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="column center_container" style="padding-left: 10px !important; padding-right: 10px !important">
+                <div class="container-fluid title_container">
+                    <div class="container facility_title">
+                        <h1 id="titleFacilityName">Facility title example</h1>
+                    </div>
+                </div>
+                <div class="container-fluid header_container">
+                    <div class="container facility_header">
+                        <div class="row facility_rating">
+                            <div class="col-sm-12 col-md-12 col-lg-9">
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-5" style="padding: 0 !important;">
+                                        <div class="facility_image">
+                                            <img id="imgFacilityImage" src="images/forest_ground.jpg" alt="Facility Picture">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-7">
+                                        <div class="facility_rating">
+                                            <p class="titles">Facility Rating</p>
+                                            <label class="starability-result" data-rating=""> </label>
+                                            <p class="subtitles" id="lblReviewQuantity">Number of reviews</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-12 col-lg-3">
+                                <div class="row">
+                                    <button type="button" id="btnAddReview" class="btn btn_add_review btn-block">Add a review</button>
+                                    <button type="button" id="btnBrowseReviews" class="btn btn_browse_reviews btn-block">Browse all reviews</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container description_container">
+                            <h5>About this facility</h5>
+                            <label id="lblFacilityInformation">
+                                Substance Abuse Rehab Services Offered Educating patients and families heal from an assortment of drug and alcohol abuse
+                                issues is what this chemical abuse treatment facility in Abbeville, AL focuses on. With services
+                                mainly predicated on Emotional health services, each patient receives individualized therapy
+                                services which include: Emotional medical therapy. Alcohol and Drug Addiction Treatment The
+                                rehabilitation facility hosts a favorable, healing surroundings affecting patients to feel
+                                empowered to proceed and work at a bright future. Each affected person begins their own treatment
+                                to addiction within a Outpatient program designed to support the individual’s specific desires
+                                and requirements. Based on the assessment, patients possess a treatment program. Outpatient
+                                therapy allows the patient to remain at their residence when making the necessary visits
+                                into the facility to experience their intensive therapy. Drug and Alcohol Rehab The pros
+                                and counselors at SpectraCare are wellqualified and are committed to healing the mind, body
+                                and spirit of Male and Female over the age brackets of Children/adolescents, Young adults,
+                                Adults and Seniors (65 or older). Making sure that all walks of life are all welcome, there
+                                are also special language services offered which include Services for the deaf and hard of
+                                hearing. There’s really a smoking policy which orders: Smoking permitted in designated area.
+                                Addiction Treatment Programs Getting treatment at this drug and alcohol addiction rehabilitation
+                                means you receive well-researched, evidence-based therapy and therapy. Their treatment approaches
+                                are all impressive, for example: Individual identification, Couples/family therapy, Group
+                                therapy, Cognitive/behavioral treatment, behavioral modification, Integrated dual disorders
+                                treatment, upheaval therapy, Psychotropic medication and tele-medicine therapy. These unique
+                                therapy methods encourage the particular programs and classes that SpectraCare works together
+                                with which can be: Persons who have co occurring emotional and substance abuse disorders,
+                                Lesbian, Customers known as the court/judicial system, Seniors or older adults, Persons with
+                                HIV or AIDS, people that have experienced trauma, Kids with serious emotional disturbance
+                                (SED), Persons with serious mental illness (SMI), Persons with post-traumatic stress disorder
+                                (PTSD) and Transitional age young adults. Alcohol and Drug Treatment Services Supporting
+                                their highly esteemed substance abuse therapy would be the center solutions which include:
+                                If you’re interested in learning more about this facility, we encourage you to reach them
+                                out directly in order that they could suitably address your questions.
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid body_container">
+                    <div class="container-fluid gallery_container">
+                        <div class="row facility_gallery justify-content-center">
+                            <div class="gallery">
+                                <a target="_blank" href="images/forest_ground.jpg">
+                                    <img id="imgGalleryOne" src="images/forest_ground.jpg" alt="Facility image">
+                                </a>
+                            </div>
+                            <div class="gallery">
+                                <a target="_blank" href="images/forest_ground.jpg">
+                                    <img id="imgGalleryTwo" src="images/forest_ground.jpg" alt="Facility image">
+                                </a>
+                            </div>
+                            <div class="gallery">
+                                <a target="_blank" href="images/forest_ground.jpg">
+                                    <img id="imgGalleryThree" src="images/forest_ground.jpg" alt="Facility image">
+                                </a>
+                            </div>
+                            <div class="gallery">
+                                <a target="_blank" href="images/forest_ground.jpg">
+                                    <img id="imgGalleryFour" src="images/forest_ground.jpg" alt="Facility image">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-fluid information_container">
+                        <div class="container cards_container">
+                            <div class="row">
+                                <div class="col-sm-12 col-md-12 col-lg-6">
+                                    <div class="card">
+                                        <h5 class="card-title">Location</h5>
+                                        <div id="map"></div>
+                                        <label id="lblMapAddress">
+                                            <i class="fas fa-map-marker-alt"></i>Address of the location</label>
+                                        <label id="lblMapPhone">
+                                            <i class="fas fa-phone"></i>Phone of the location</label>
+                                        <label id="lblMapWebsite">
+                                            <i class="fas fa-external-link-square-alt"></i>
+                                            <a href="#">websiteoflocation.com</a>
+                                        </label>
+                                    </div>
+                                    <div class="facility_claiming">
+                                        <label>Do you work here?
+                                            <a id="lblFacilityClaiming" href="javascript:;">Claim this facility.</a>
+                                        </label>
+                                        <br>
+                                        <label>
+                                            <a id="lblFacilityEditing" href="javascript:;">Edit or complete this facility information.</a>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-12 col-lg-6">
+                                    <div class="card">
+                                        <h5 class="card-title">Leave a review</h5>
+                                        <form id="frmReviewForm" method="POST" onsubmit="return false;">
+                                            <div class="control">
+                                                <fieldset class="starability-grow" id="starRating">
+                                                    <input type="radio" id="no-rate" class="input-no-rate" name="rating" value="0" checked aria-label="No rating." />
+                                                    <input type="radio" id="first-rate1" name="rating" value="1" />
+                                                    <label for="first-rate1" title="Terrible">1 star</label>
+                                                    <input type="radio" id="first-rate2" name="rating" value="2" />
+                                                    <label for="first-rate2" title="Not good">2 stars</label>
+                                                    <input type="radio" id="first-rate3" name="rating" value="3" />
+                                                    <label for="first-rate3" title="Average">3 stars</label>
+                                                    <input type="radio" id="first-rate4" name="rating" value="4" />
+                                                    <label for="first-rate4" title="Very good">4 stars</label>
+                                                    <input type="radio" id="first-rate5" name="rating" value="5" />
+                                                    <label for="first-rate5" title="Amazing">5 stars</label>
+                                                </fieldset>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" id="inpReviewFormUserName" placeholder="Name...">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="email" class="form-control" id="inpReviewFormUserEmail" aria-describedby="emailHelp" placeholder="Enter email">
+                                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                            </div>
+                                            <div class="form-group">
+                                                <textarea class="form-control" id="inpReviewFormUserReview" rows="3" placeholder="Write your review..."></textarea>
+                                            </div>
+                                            <button type="submit" class="btn btn_submit_review btn-block">Submit my review!</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-fluid reviews_container">
+                        <div class="container top_reviews_container">
+                            <h5>Top Reviews</h5>
+                            <div class="row">
+                                <div class="col-sm-12 col-md-12">
+                                    <div>
+                                        <label id="lblUserReviewName">User Name</label>
+                                    </div>
+                                    <div>
+                                        <label id="lblUserReviewResult" class="starability-result" data-rating=""> </label>
+                                    </div>
+                                    <div>
+                                        <label id="lblUserReviewDate">01/01/2001</label>
+                                    </div>
+                                    <div>
+                                        <label id="lblUserReview">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                                            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                            ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                                            in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                                            mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit
+                                            voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
+                                            ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                                            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed
+                                            quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque
+                                            porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+                                            velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam
+                                            aliquam quaerat voluptatem.
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container-fluid nearby_listings_container">
+                            <div class="container nearby_listings">
+                                <h5>Nearby Listings</h5>
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-12 col-lg-6">
+                                        <div class="media">
+                                            <img id="imgTopFacilityImage" class="mr-3" src="images/forest_ground.jpg" alt="Generic placeholder image">
+                                            <div class="media-body">
+                                                <h5 class="mt-0" id="lblTopFacilityUserName">Media heading</h5>
+                                                <div>
+                                                    <label class="starability-result" data-rating=""> </label>
+                                                </div>
+                                                <div>
+                                                    <label id="lblTopReviewDate">01/01/2001</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-12 col-lg-6">
+                                        <div class="media">
+                                            <img id="imgTopFacilityImage" class="mr-3" src="images/forest_ground.jpg" alt="Generic placeholder image">
+                                            <div class="media-body">
+                                                <h5 class="mt-0" id="lblTopFacilityUserName">Media heading</h5>
+                                                <div>
+                                                    <label class="starability-result" data-rating=""> </label>
+                                                </div>
+                                                <div>
+                                                    <label id="lblTopReviewDate">01/01/2001</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-12 col-lg-6">
+                                        <div class="media">
+                                            <img id="imgTopFacilityImage" class="mr-3" src="images/forest_ground.jpg" alt="Generic placeholder image">
+                                            <div class="media-body">
+                                                <h5 class="mt-0" id="lblTopFacilityUserName">Media heading</h5>
+                                                <div>
+                                                    <label class="starability-result" data-rating=""> </label>
+                                                </div>
+                                                <div>
+                                                    <label id="lblTopReviewDate">01/01/2001</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-12 col-lg-6">
+                                        <div class="media">
+                                            <img id="imgTopFacilityImage" class="mr-3" src="images/forest_ground.jpg" alt="Generic placeholder image">
+                                            <div class="media-body">
+                                                <h5 class="mt-0" id="lblTopFacilityUserName">Media heading</h5>
+                                                <div>
+                                                    <label class="starability-result" data-rating=""> </label>
+                                                </div>
+                                                <div>
+                                                    <label id="lblTopReviewDate">01/01/2001</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="column rigth_sidebar_container">
+                <div class="container-fluid right_sidebar_container">
+                    <!-- Sidebar -->
+                    <nav id="sidebar">
+                        <div class="sidebar_header">
+                            <h3>Site right sidebar</h3>
+                        </div>
+                        <ul class="list-unstyled components">
+                            <p>Dummy Heading</p>
+                            <li class="active">
+                                <a href="#homeRightSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Home</a>
+                                <ul class="collapse list-unstyled" id="homeRightSubmenu">
+                                    <li>
+                                        <a href="#">Home 1</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Home 2</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Home 3</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">About</a>
+                            </li>
+                            <li>
+                                <a href="#pageRightSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Pages</a>
+                                <ul class="collapse list-unstyled" id="pageRightSubmenu">
+                                    <li>
+                                        <a href="#">Page 1</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Page 2</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Page 3</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+            <!-- Modal for Claiming-->
+            <div class="modal fade" id="mdlClaimModal" tabindex="-1" role="dialog" aria-labelledby="ModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Claim this listing</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="container-fluid">
+                                <form id="frmClaimForm" method="POST" onsubmit="return false;">
+                                    <div class="row">
+                                        <div class="col-sm-12 col-md-6 col-lg-6">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" id="inpModalClaimUserName" placeholder="Name..."></input>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-lg-6">
+                                            <input type="text" class="form-control" id="inpModalClaimUserCompany" placeholder="Company..."></input>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-12 col-md-6 col-lg-6">
+                                            <div class="form-group">
+                                                <input type="email" class="form-control" id="inpModalClaimUserEmail" aria-describedby="modalEmailHelp" placeholder="Email..."></input>
+                                                <small id="modalEmailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-lg-6">
+                                            <input type="text" class="form-control phone_with_ddd" id="inpModalClaimUserPhone" maxlength="13" placeholder="Phone..."></input>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-12 col-md-12 col-lg-12">
+                                            <textarea type="text" class="form-control" id="inpModalClaimUserCompanyAddress" placeholder="Company address..."></textarea>
+                                        </div>
+                                    </div>
+
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn_cancel_claim_modal btn-block" data-dismiss="modal">Cancel</button>
+                            <button type="submit" class="btn btn_submit_claim_modal btn-block">Submit</button>
+                        </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal for editing-->
+            <div class="modal fade" id="mdlEditModal" tabindex="-1" role="dialog" aria-labelledby="ModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Request an edit of this listing</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="container-fluid">
+                                <form id="frmEditForm" method="POST" onsubmit="return false;">
+                                    <div class="row">
+                                        <div class="col-sm-12 col-md-6 col-lg-6">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" id="inpModalEditUserName" placeholder="Name..."></input>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-lg-6">
+                                            <div class="form-group">
+                                                <input type="email" class="form-control" id="inpModalEditUserEmail" aria-describedby="modalEmailHelp" placeholder="Email..."></input>
+                                                <small id="modalEmailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-12 col-md-12 col-lg-12">
+                                            <textarea type="text" class="form-control" id="inpModalEditUserCompanyAddress" placeholder="Company address..."></textarea>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn_cancel_edit_modal btn-block" data-dismiss="modal">Cancel</button>
+                            <button type="submit" class="btn btn_submit_edit_modal btn-block">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Boostrap-->
+        <script src="scripts/jQuery.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+            crossorigin="anonymous"></script>
+        <!--External libraries-->
+        <script src="scripts/jquery.mask.js"></script>
+        <script src="scripts/bootstrap-notify.min.js"></script>
+        <!-- Google Maps-->
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDpAIxqnDd7if7w8_WV0YjLVEBsxeImmZY&callback=initMap"></script>
+        <!--Personal Scripts-->
+        <script src="scripts/googleMaps.js"></script>
+        <script src="scripts/facilityFunctions.js"></script>
+</body>
+
+</html>
